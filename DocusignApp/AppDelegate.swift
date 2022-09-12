@@ -51,6 +51,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().tintColor = .white
         UINavigationBar.appearance().standardAppearance = appearance
         UINavigationBar.appearance().scrollEdgeAppearance = appearance
+        
+        DSMAppearance.setNavigationBarTitleTextColor(.white, backgroundTintColor: .red, fontSize: 18.0)
+        DSMAppearance.setBarButtonItemsTintColor(.white)
+
     }
 
 
